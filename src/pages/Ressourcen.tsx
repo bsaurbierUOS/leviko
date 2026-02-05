@@ -3,13 +3,12 @@ import { useStickyScroll } from "../Components/customHooks/useStickyScroll";
 import { Headline } from "../Components/UI/Headline.styled";
 import { SubHeadline } from "../Components/UI/SubHeadline.styled";
 import HeroProjekt from "../Components/Hero/HeroProjekt.tsx";
-import LinkBoxL from "../Components/InfoText/LinkBoxL.tsx";
-import LinkBoxR from "../Components/InfoText/LinkBoxR.tsx";
+import LinkBoxL from "../Components/InfoText/LinkboxL.tsx";
+import LinkBoxR from "../Components/InfoText/LinkboxR.tsx";
 import ImageManWithHMD from "../assets/images/Mann_mit_VRBrille_und_roten_Pulli.webp";
 import leitfaden from "../assets/images/LEVIKO_Leitfaden.webp";
 import Icon_add_post from "../assets/images/undraw_add-post_prex.png"
 import Icon_blog_post from "../assets/images/undraw_blog-post_f68f.png"
-import Icon_online_article from "../assets/images/undraw_online-articles_g9cg.png"
 import Icon_online_collaboration from "../assets/images/undraw_online-collaboration_xon8.png"
 import Icon_bright_ideas from "../assets/images/undraw_bright-ideas_z7u9.png"
 import Icon_education from "../assets/images/undraw_education_3vwh.png"

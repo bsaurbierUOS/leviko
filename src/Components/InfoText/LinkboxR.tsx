@@ -15,7 +15,6 @@ interface BildTextProps {
   imgSrc: string; // Bildquelle
   imgAlt: string; // Alternativer Text für das Bild
   headline: string; // Überschrift für den Text
-  date: string; // Datum des Termins
   description: string; // Beschreibungstext unter der Überschrift
   linkTo: string; // Ziel-Link, zu dem der Button führt
   button: string; // Text auf dem Button
@@ -27,7 +26,6 @@ const TerminBildText: React.FC<BildTextProps> = ({
   imgSrc,
   imgAlt,
   headline,
-  date,
   description,
   linkTo,
   button,
@@ -48,7 +46,6 @@ const TerminBildText: React.FC<BildTextProps> = ({
       {/* Textbereich mit Überschrift, Beschreibung und Button */}
       <HeadlineContainer>
         <h3>{headline}</h3> {/* Überschrift */}
-		<h3>{date}</h3> {/* Datum */}
         <PContainer>{description}</PContainer> {/* Beschreibungstext */}
 		{/* Button nur anzeigen, wenn Link übergeben wird */}
         {linkTo && (
