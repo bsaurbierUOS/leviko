@@ -100,10 +100,10 @@ const Header: React.FC = () => {
               </HeaderButton>
 			  <HeaderButton
                 as={Link}
-                to="/termine"
-                className={isActive("/termine") ? "active" : ""}
+                to="/ressourcen"
+                className={isActive("/ressourcen") ? "active" : ""}
               >
-                Termine
+                Ressourcen
               </HeaderButton>
               <HeaderButton
                 as={Link}
@@ -142,8 +142,8 @@ const Header: React.FC = () => {
               </MenuItem>
             </OverlayContent>
 			<OverlayContent>
-              <MenuItem as={Link} to="/termine" onClick={toggleMenu}>
-                Termine
+              <MenuItem as={Link} to="/ressourcen" onClick={toggleMenu}>
+                Ressourcen
                 <ArrowContainer>
                   <StyledArrowSVG color="var(--leviko-green)" />
                 </ArrowContainer>

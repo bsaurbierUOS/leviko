@@ -7,7 +7,11 @@ import poster_eas_25 from "../../assets/images/LEVIKO_poster_eas_25.webp";
 import paper_ieee_25 from "../../assets/images/LEVIKO_Paper_IEEE_25.webp";
 import paper_ieee_25_2 from "../../assets/images/LEVIKO_Paper_IEEE_25_2.webp";
 import poster_dgm_25 from "../../assets/images/LEVIKO_Poster_DGM_25.webp";
+import artikel_medienpaed_26 from "../../assets/images/LEVIKO_Artikel_MedienPaed_26.webp";
 import leitfaden from "../../assets/images/LEVIKO_Leitfaden.webp";
+
+
+
 
 // Definiere den Typ für deine Publikationen-Daten
 const publikationData: Array<{
@@ -26,7 +30,7 @@ const publikationData: Array<{
 }> = [
   // Weitere Publikationen
   {
-    id: 9,
+    id: 10,
     date: "Januar 2026",
     headline: "Extended Reality im Musikunterricht.",
     subHeadline: "Eine Handreichung für Lehrkräfte",
@@ -41,6 +45,26 @@ const publikationData: Array<{
     description: (
       <p>
         In dieser Broschüre finden Sie alles, was Sie brauchen, um ihren Musikunterricht um die Extended Reality Welt zu erweitern. Die Handreichung enthält drei Lehr-Lern-Designs mit Arbeitsblättern, die im Projekt entwickelt und deutschlandweit in Lehrkräftefortbildungen evaluiert wurden, sowie viele weitere Anwendungen und Anregungen für den Einsatz von XR im Musikunterricht.
+      </p>
+    ),
+  },
+  {
+    id: 9,
+    date: "Januar 2026",
+    headline: "XR-Producing im Musikunterricht.",
+    subHeadline: "Didaktisches Design im Projekt LEVIKO-XR am Beispiel ‹Kollaboratives Musik Erfinden zu Mood Clips in der XR-Applikation PatchWorld›.",
+    tags: ["Artikel"],
+    searchTags: ["Pädagogik", "Medien", "Artikel", "Beitrag", "Publikation", "Extended Reality", "Music", "lernen", "digital", "2026"],
+    imgSrc: artikel_medienpaed_26,
+    imgAlt: "Artikel zu XR-Producing im Musikunterricht",
+    linkTo: "https://www.researchgate.net/publication/400281192_XR-Producing_im_Musikunterricht_Didaktisches_Design_im_Projekt_LEVIKO-XR_am_Beispiel_Kollaboratives_Musik_Erfinden_zu_Mood_Clips_in_der_XR-Applikation_PatchWorld",
+    button: "Artikel",
+    $buttonVariant: "secondary",
+    description: (
+      <p>
+        Beitrag in MedienPädagogik - Zeitschrift für Theorie und Praxis der Medienbildung.
+		<br /> <br />
+		Der volle Text kann hier heruntergeladen werden.
       </p>
     ),
   },

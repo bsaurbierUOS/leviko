@@ -76,9 +76,9 @@ const Startseite = () => {
         imgSrc={ImageTablet}
         imgAlt="Tablet with sketch"
         headline="Lehrkräftefortbildungen"
-        description="Das Team von LEVIKO XR bietet Workshops und Fortbildungen in ganz Deutschland an. Wir freuen uns, dich an einem der Termine kennenzulernen."
-        linkTo="/termine"
-        button="Kommende Veranstaltungen"
+        description="Das Team von LEVIKO XR hat Workshops und Fortbildungen in ganz Deutschland angeboten."
+        linkTo="/projekt"
+        button="Projektübersicht"
         $objectPosition="30%"
       />
       <Headline>Institutionen</Headline>

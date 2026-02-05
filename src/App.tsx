@@ -2,7 +2,7 @@ import GlobalStyle from "./Components/UI/GlobalStyle";
 import { Routes, Route } from "react-router-dom";
 import Startseite from "./pages/Startseite";
 import ProjektPage from "./pages/Projekt.tsx";
-import TerminPage from "./pages/Termine.tsx";
+import RessourcenPage from "./pages/Ressourcen.tsx";
 import TeamPage from "./pages/Team.tsx";
 import FroschungsPage from "./pages/Forschung.tsx";
 import PublikationenPage from "./pages/Publikationen.tsx";
@@ -25,7 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Startseite />} />
         <Route path="/projekt" element={<ProjektPage />} />
-		<Route path="/termine" element={<TerminPage />} />
+		<Route path="/ressourcen" element={<RessourcenPage />} />
         <Route path="/team" element={<TeamPage />} />
         <Route path="/impressum" element={<Impressum />} />
         <Route path="/forschung" element={<FroschungsPage />} />
