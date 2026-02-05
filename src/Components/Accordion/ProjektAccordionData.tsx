@@ -44,20 +44,30 @@ export const ProjektAccordionData = [
     title: "Fortschritt",
     content: (
       <p>
-        Aktuell befindet sich das Projekt "LEVIKO XR" in einer fortgeschrittenen
-        Phase der Prototypenentwicklung und Konzeption der Lehr-Lern-Designs.{" "}
+        Das Projekt "LEVIKO XR" ist seit Februar 2026 abgeschlossen.{" "} Die Projektergebnisse
+		sind in eine Handreichung für Lehrkräfte zusammengeflossen. Zusätzlich wurden zahlreiche
+		wissenschaftliche Publikationen veröffentlicht.
         <br /> <br />
-        Es wurden bereits umfangreiche Analysen durchgeführt, um die Potenziale
+        In dem Projekt wurden umfangreiche Analysen durchgeführt, um die Potenziale
         von VR/AR im Musikunterricht zu identifizieren. Basierend auf diesen
         Erkenntnissen wurden mehrere Prototypen entwickelt und in einem
         iterativen Prozess evaluiert. <br /> <br />
-        Die Rückmeldungen und Erfahrungen der Nutzer werden kontinuierlich
-        genutzt, um die Designs zu optimieren und an die Bedürfnisse der
-        Zielgruppe anzupassen.
-        <br /> <br />
-        Parallel dazu werden die wissenschaftlichen Erkenntnisse aus dem Projekt
-        kontinuierlich dokumentiert und publiziert, um einen Beitrag zur
-        Forschung auf diesem Gebiet zu leisten.
+        Aus den einzelnen Prototypen sind schließlich drei Lehr-Lern-Designs entstanden,
+		welche in Fortbildungen und im Unterricht zum Einsatz kommen können.
+		<br /> <br />
+		Während der Projektlaufzeit wurden folgende Workshops und Fortbildungen von dem LEVIKO
+		XR-Team angeboten:
+		<br /> <br />
+		20.11.2025 - Virtual Reality im Musikunterricht - ZfsL Düsseldorf <br /><br />
+		13.11. - 14.11.2025 - Musik in Extended Reality - Bildungsportal Niedersachsen, Kompetenzzentrum Oldenburg<br /><br />
+		10.10. - 12.10.2025 - Musik in Extended Reality - Bundesakademie für musikalische Jugendbildung Trossingen<br /><br />
+		27.09.2025 - Virtual Reality im Musikunterricht - Landesmusikakademie NRW<br /><br />
+		29.08. - 31.08.2025 - Virtual Reality im Musikunterricht - Landesmusikakademie Hessen<br /><br />
+		06.09. - 07.09.2025 - Virtual Reality im Musikunterricht - Landesmusikakademie Sachsen<br /><br />
+		28.04.2025 - Workshops bei den Ateliertagen der Staatlichen Hochschule für Musik Trossingen<br /><br />
+		28.02. - 01.03.2025 - Virtual Reality im Musikunterricht - Impulsworkshop für alle interessierten Lehrkräfte - Landesmusikakademie NRW, Heek<br /><br />
+		19.11.2024 - Virtual Reality im Musikunterricht - Zentrum für Schulqualität und Lehrerbildung Baden-Württemberg, Stuttgart<br /><br />
+		Insgesamt haben 64 Lehrkräfte an den Veranstaltungen teilgenommen.
       </p>
     ),
   },

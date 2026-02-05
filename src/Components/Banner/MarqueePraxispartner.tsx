@@ -43,7 +43,7 @@ const MarqueePraxispartner = () => {
           <ImageContainer href="https://www.hs-duesseldorf.de/">
             <StyledImage src={MireviWhite} alt="MIREVI Logo" />
           </ImageContainer>
-          <ImageContainer href="https://www.mtdml.uni-osnabrueck.de/mtdml/mtdml.html">
+          <ImageContainer href="https://www.uni-osnabrueck.de/fb3/mtdml">
             <StyledImage src={MTMDL} alt="MTMDL Logo" />
           </ImageContainer>
 
@@ -69,7 +69,7 @@ const MarqueePraxispartner = () => {
           <ImageContainer href="https://www.hs-duesseldorf.de/">
             <StyledImage src={MireviWhite} alt="MIREVI Logo" />
           </ImageContainer>
-          <ImageContainer href="https://www.mtdml.uni-osnabrueck.de/mtdml/mtdml.html">
+          <ImageContainer href="https://www.uni-osnabrueck.de/fb3/mtdml">
             <StyledImage src={MTMDL} alt="MTMDL Logo" />
           </ImageContainer>
         </Marquee>

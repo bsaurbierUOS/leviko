@@ -103,7 +103,7 @@ const Header: React.FC = () => {
                 to="/termine"
                 className={isActive("/termine") ? "active" : ""}
               >
-                Termine
+                Ressourcen
               </HeaderButton>
               <HeaderButton
                 as={Link}
