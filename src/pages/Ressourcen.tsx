@@ -17,7 +17,7 @@ import Icon_ar from "../assets/images/undraw_augmented-reality_3ie0.png"
 
 
 
-const TerminPage = () => {
+const RessourcenPage = () => {
   const refOne = useRef<HTMLDivElement>(null);
   const refTwo = useRef<HTMLDivElement>(null);
   const refThree = useRef<HTMLDivElement>(null);
@@ -39,7 +39,7 @@ const TerminPage = () => {
         imgAlt="person who plays maestro VR"
         headline="XR im Musikunterricht"
         description="Unsere Handreichung für Lehrkräfte und weitere Ressourcen"
-        linkTo="/termine"
+        linkTo="/ressourcen"
         button="Erfahre mehr"
         $objectPosition="center 20%"
       />
@@ -106,4 +106,4 @@ const TerminPage = () => {
   );
 };
 
-export default TerminPage;
+export default RessourcenPage;
