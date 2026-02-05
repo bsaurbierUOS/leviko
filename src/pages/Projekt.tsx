@@ -81,7 +81,7 @@ const ProjektPage = () => {
           imgAlt="Frau spielt eine VR Anwendung"
           imgSrc={Mannspielt}
           $objectPosition="center"
-          linkTo="https://www.uni-potsdam.de/ru/nachrichten/detail/2022-08-31-virtual-reality-im-musikunterricht-studierende-haben-vr-fuer-den-schuleinsatz-erprobt"
+          linkTo="https://www.uni-potsdam.de/de/nachrichten/detail/2022-08-31-virtual-reality-im-musikunterricht-studierende-haben-vr-fuer-den-schuleinsatz-erprobt"
           button="Erfahre mehr"
           description={
             <p>
