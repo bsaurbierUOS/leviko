@@ -79,7 +79,7 @@ export const useDBRStore = create<DBRStoreState>((set) => ({
       ),
     },
     ImplicationofTheory: {
-      headline: "Implication of Theory",
+      headline: "Implications for Theory",
       description: (
         <p>
           Diese Phase verbindet theoretische Erkenntnisse mit der Praxis, um

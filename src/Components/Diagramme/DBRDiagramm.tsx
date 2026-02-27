@@ -73,7 +73,7 @@ const DBRDiagramm: React.FC = () => {
                     onClick={() => handleCircleClick(boxId)}
                     $isSelected={selectedBox === boxId}
                   >
-                    IOF
+                    IFT
                   </Rectangle>
                 ) : (
                   <Circle

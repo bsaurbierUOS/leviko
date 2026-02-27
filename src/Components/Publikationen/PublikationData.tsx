@@ -9,6 +9,7 @@ import paper_ieee_25_2 from "../../assets/images/LEVIKO_Paper_IEEE_25_2.webp";
 import poster_dgm_25 from "../../assets/images/LEVIKO_Poster_DGM_25.webp";
 import artikel_medienpaed_26 from "../../assets/images/LEVIKO_Artikel_MedienPaed_26.webp";
 import leitfaden from "../../assets/images/LEVIKO_Leitfaden.webp";
+import paper_INTED_25 from "../../assets/images/LEVIKO_Paper_INTED_25.webp";
 
 
 
@@ -30,7 +31,7 @@ const publikationData: Array<{
 }> = [
   // Weitere Publikationen
   {
-    id: 10,
+    id: 11,
     date: "Januar 2026",
     headline: "Extended Reality im Musikunterricht.",
     subHeadline: "Eine Handreichung für Lehrkräfte",
@@ -49,7 +50,7 @@ const publikationData: Array<{
     ),
   },
   {
-    id: 9,
+    id: 10,
     date: "Januar 2026",
     headline: "XR-Producing im Musikunterricht.",
     subHeadline: "Didaktisches Design im Projekt LEVIKO-XR am Beispiel ‹Kollaboratives Musik Erfinden zu Mood Clips in der XR-Applikation PatchWorld›.",
@@ -69,7 +70,7 @@ const publikationData: Array<{
     ),
   },
   {
-    id: 8,
+    id: 9,
     date: "Oktober 2025",
     headline: "2025 Comparing Singing Lessons in Mixed Reality, Video, and In-Person",
     subHeadline: "Conference Paper",
@@ -90,7 +91,7 @@ const publikationData: Array<{
     ),
   },
   {
-    id: 7,
+    id: 8,
     date: "September 2025",
     headline: "2025 Design-Based Research zu Extended-Reality-Lehr-Lern-Designs: Kollaboratives Musizieren, Mixed-Reality-Konzerte und VR-Rhythmusspiele",
     subHeadline: "Conference Poster",
@@ -111,7 +112,7 @@ const publikationData: Array<{
     ),
   },
   {
-    id: 6,
+    id: 7,
     date: "Juni 2025",
     headline: "2025 Learning Designs for Music Lessons in Extended Reality (XR)",
     subHeadline: "Conference Poster",
@@ -132,7 +133,7 @@ const publikationData: Array<{
     ),
   },
   {
-    id: 5,
+    id: 6,
     date: "März 2025",
     headline: "2025 IEEE Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW)",
     subHeadline: "Conference Paper",
@@ -149,6 +150,27 @@ const publikationData: Array<{
         Paper-Einreichung für den IEEE VR Workshop "Sonic Interaction in Virtual Environments" 2025.
         <br /> <br />
         Der Volltext des Papers kann hier heruntergeladen werden.
+      </p>
+    ),
+  },
+  {
+    id: 5,
+    date: "März 2025",
+    headline: "2025 Design and Evaluation of Immersive Technologies for Musical Expressions",
+    subHeadline: "Conference Paper",
+    tags: ["Paper", "Konferenzbeitrag"],
+    searchTags: ["Paper", "Virtual Reality", "XR", "Conference", "2025"],
+    imgSrc: paper_INTED_25,
+    imgAlt: "Vorschau Paper",
+    linkTo:
+	  "https://library.iated.org/view/FEITSCH2025DES",
+    button: "Paper",
+    $buttonVariant: "secondary",
+    description: (
+      <p>
+        Paper-Einreichung für die 19th International Technology, Education and Development Conference in Valencia, Spanien.
+        <br /> <br />
+        Der Volltext des Papers kann hier heruntergeladen werden (Anmeldung erforderlich).
       </p>
     ),
   },

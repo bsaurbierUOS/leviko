@@ -65,9 +65,9 @@ const RessourcenPage = () => {
 	    imgSrc={Icon_online_collaboration}
 		imgAlt="Symbolbild"
         headline="ComPleTT"
-		description="Übersicht über alle LEVIKO-XR Materialien auf der Plattform ComPleTT Link: Die Veröffentlichung ist noch in Arbeit und wird bis zum 28. 2. 2026 an dieser Stelle verlinkt."
-		linkTo=""
-		button="Publikationen"
+		description="Übersicht über alle LEVIKO-XR Materialien auf der Plattform ComPleTT. Für den Zugang ist ein von den Bildungsorganisationen vergebener Zugang erforderlich."
+		linkTo="https://fundus.complett.bildungsserver.de/details/SODIX-0001150332"
+		button="ComPleTT"
       />
 	  <LinkBoxL
 	    imgSrc={Icon_ar}

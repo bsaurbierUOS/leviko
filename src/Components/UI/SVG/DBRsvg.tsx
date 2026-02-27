@@ -241,7 +241,7 @@ const DBRSVG = forwardRef<SVGSVGElement, React.SVGProps<SVGSVGElement>>(
           onClick={() => handleBoxClick("ImplicationofTheory")}
           style={{ cursor: "pointer" }}
         >
-          IOF
+          IFT
         </text>
       </svg>
     );
