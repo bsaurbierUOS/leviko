@@ -9,7 +9,7 @@ import paper_ieee_25_2 from "../../assets/images/LEVIKO_Paper_IEEE_25_2.webp";
 import poster_dgm_25 from "../../assets/images/LEVIKO_Poster_DGM_25.webp";
 import artikel_medienpaed_26 from "../../assets/images/LEVIKO_Artikel_MedienPaed_26.webp";
 import leitfaden from "../../assets/images/LEVIKO_Leitfaden.webp";
-import placeholder from "../../assets/images/publication_placeholder.webp";
+import paper_INTED_25 from "../../assets/images/LEVIKO_Paper_INTED_25.webp";
 
 
 
@@ -160,7 +160,7 @@ const publikationData: Array<{
     subHeadline: "Conference Paper",
     tags: ["Paper", "Konferenzbeitrag"],
     searchTags: ["Paper", "Virtual Reality", "XR", "Conference", "2025"],
-    imgSrc: placeholder,
+    imgSrc: paper_INTED_25,
     imgAlt: "Vorschau Paper",
     linkTo:
 	  "https://library.iated.org/view/FEITSCH2025DES",
